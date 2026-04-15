@@ -1,0 +1,4 @@
+Model,Accuracy,F1,Description
+EfficientNet-B0,96.79,96.88,Base EfficientNet-B0 backbone without attention
+EfficientNet + Channel Attention,97.21,97.35,Enhanced feature extraction using channel attention mechanism
+RCA_EfficientNet (Proposed),97.86,97.92,Residual Channel Attention improves feature refinement and classification

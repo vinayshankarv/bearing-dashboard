@@ -1,0 +1,13 @@
+data_augmented/
+data_original/
+models/
+*.pth
+temp/
+v1/
+scripts/
+evaluation_plots/
+*.ipynb
+*.pdf
+*.docx
+*.tmp
+.vscode/git rm -r --cached temp
