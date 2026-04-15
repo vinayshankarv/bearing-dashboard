@@ -30,3 +30,14 @@ temp/
 v1/
 scripts/
 evaluation_plots/
+
+*.pth
+*.log
+*.txt
+*.png
+
+.gitignore
+streamlit/app.py
+streamlit/utils.py
+streamlit/requirements.txt
+metrics/*.csv
