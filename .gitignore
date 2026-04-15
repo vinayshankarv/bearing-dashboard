@@ -1,13 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Notebooks
+*.ipynb
+
+# Documents
+*.pdf
+*.docx
+
+# Temp / system files
+*.tmp
+~$*
+*.log
+
+# VS Code
+.vscode/
+
+# Streamlit temp files
+tempCodeRunnerFile.py
+
+# Your project-specific large folders
 data_augmented/
 data_original/
 models/
-*.pth
+
+# Optional cleanup (recommended)
 temp/
 v1/
 scripts/
 evaluation_plots/
-*.ipynb
-*.pdf
-*.docx
-*.tmp
-.vscode/git rm -r --cached temp
